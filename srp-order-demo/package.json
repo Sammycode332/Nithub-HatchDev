@@ -1,0 +1,19 @@
+{
+  "name": "srp-order-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node --experimental-sqlite -r ts-node/register src/seed.ts",
+    "start": "node --experimental-sqlite -r ts-node/register src/index.ts",
+    "test": "node --experimental-sqlite -r ts-node/register src/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

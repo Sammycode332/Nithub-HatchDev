@@ -1,7 +1,7 @@
 abstract class ApiClient<T> {
   // Shared behavior
   async getAll(): Promise<T[]> {
-    const res = await fetch("");
+    const res = await fetch(this.getEndpoint());
     return res.json();
   }
 
@@ -14,7 +14,6 @@ abstract class ApiClient<T> {
   // 3. the abstract metgods cannot have implementation
 }
  
-const apiClient = new ApiClient()
 interface User{
   name: string;
   age: number;
