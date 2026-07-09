@@ -1,4 +1,4 @@
-"use strict";
+l"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.afunction = void 0;
 var afunction = function () {

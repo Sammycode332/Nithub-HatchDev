@@ -24,7 +24,7 @@ class TaskManager{
         }
         return null
     }
-    // this uses O(logn) - using binary searcj
+    // this uses O(logn) - using binary search
     public goodSearchByID(targetID: number): Task| null{
         this.tasks.sort((a,b) => a.id -b.id);
         let left = 0;
